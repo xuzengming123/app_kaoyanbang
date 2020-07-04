@@ -1,5 +1,5 @@
 #coding=utf-8
-from capability import driver
+from find_element.capability import driver
 from selenium.webdriver.support.ui import WebDriverWait
 
 driver.find_element_by_id('com.tal.kaoyan:id/login_email_edittext').send_keys('sssss')

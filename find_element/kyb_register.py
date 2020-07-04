@@ -1,4 +1,4 @@
-from capability import driver
+from find_element.capability import driver
 import random
 #进入注册界面并选择设置头像
 driver.find_element_by_id('com.tal.kaoyan:id/login_register_text').click()

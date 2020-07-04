@@ -1,6 +1,6 @@
 import time
 from time import sleep
-from capability import driver
+from find_element.capability import driver
 
 #获取屏幕尺寸
 def get_size():

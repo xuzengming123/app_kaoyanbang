@@ -1,4 +1,4 @@
-from capability import driver
+from find_element.capability import driver
 #点击注册按钮
 driver.find_element_by_id('com.tal.kaoyan:id/login_register_text').click()
 #获取父节点

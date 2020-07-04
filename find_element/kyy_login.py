@@ -1,4 +1,4 @@
-from capability import driver,NoSuchElementException
+from find_element.capability import driver,NoSuchElementException
 def login():
     driver.find_element_by_id('com.tal.kaoyan:id/login_email_edittext').send_keys('自学网2018')
     driver.find_element_by_id('com.tal.kaoyan:id/login_password_edittext').send_keys('zxw2018')

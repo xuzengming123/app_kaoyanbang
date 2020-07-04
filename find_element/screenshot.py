@@ -1,4 +1,4 @@
-from capability import driver
+from find_element.capability import driver
 
 driver.find_element_by_id('com.tal.kaoyan:id/mainactivity_button_mysefl').click()
 driver.find_element_by_id('com.tal.kaoyan:id/activity_usercenter_username').click()

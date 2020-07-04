@@ -14,7 +14,7 @@ Desired_Capabilities = {
   "appActivity": "com.tal.kaoyan.ui.activity.SplashActivity",
   "noReset": False,
   "unicodeKeyboard": True,
-  "resetKeyboard": True,
+  "resetKeyboard": False,
   'skipServerInstallation': True,
   'skipDeviceInitialization': True,
 }
@@ -43,4 +43,4 @@ def check_skipBtn():
         skipBtn.click()
 
 check_cancelBtn()
-# check_skipBtn()
+check_skipBtn()
